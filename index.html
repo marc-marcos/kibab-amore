@@ -1,12 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
-    <h1>Testing o lo que sea</h1>
-    
+    <div class="grid grid-flow-row-dense grid-cols-4 grid-rows-1">
+        <div class="izquierda">
+            <h1 class="text-3xl">Marc Marcos</h1>
+            <p class="escondio">PODGORICA RULES</p>
+            <ul>
+                <li><a class="underline hover:line-through" href="index.html">🏠 Home</a></li>
+                <li><a class="hover:line-through" href="portfolio.html">📰 Portfolio</a></li>
+                <li><a class="hover:line-through" href="blog.html">🗣️ Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="col-span-3 derecha">
+            <br><br><br><br>
+            <h1 class="text-2xl">Asistente de Biblioteca Universitaria</h1>
+            <h2>Biblioteca de la Facultad de Mates y Estadística</h2>
+            <p>Mantenimiento de base de datos, desarollo de scripts internos para mantenimiento de datos, atención al
+                público.</p>
+            <hr>
+
+            <h1 class="text-2xl">Profesor de refuerzo universitario</h1>
+            <h2>Profesor de refuerzo de Fundamentos Matemáticos a alumnos de primero de carrera.</h2>
+            <p>Hacía esto</p>
+            <hr>
+
+            <h1 class="text-2xl">Trabajo por cuenta propia</h1>
+            <h2>Profesor de refuerzo para secundaria y bachillerato</h2>
+            <p>Hacía esto</p>
+            <hr>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Marc Marcos. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
+
 </html>

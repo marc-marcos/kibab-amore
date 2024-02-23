@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.escondio {
+    color: #e5dcca;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e5dcca;
+}
+
+* {
+    background-color: #e5dcca;
+    padding: 4px;
+}
